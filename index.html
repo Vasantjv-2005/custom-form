@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Custom Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>CSS3 Custom Form</h1>
+        
+        <div class="form-group">
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div class="form-group">
+            <label for="browser">Favourite Browser?</label>
+            <select id="browser" name="browser">
+                <option value="chrome" selected>Google Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="safari">Safari</option>
+                <option value="edge">Edge</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label>Gender</label>
+            <div class="radio-group">
+                <div class="radio-container">
+                    <input type="radio" id="male" name="gender" checked>
+                    <label for="male">Male</label>
+                </div>
+                <div class="radio-container">
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Favourite JS framework</label>
+            <div class="button-group js-framework">
+                <button type="button" class="option-button active" data-value="react">React</button>
+                <button type="button" class="option-button" data-value="vue">Vue</button>
+                <button type="button" class="option-button" data-value="angular">Angular</button>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Favourite CSS framework</label>
+            <div class="button-group css-framework">
+                <button type="button" class="option-button active" data-value="bootstrap">Bootstrap</button>
+                <button type="button" class="option-button" data-value="foundation">Foundation</button>
+                <button type="button" class="option-button" data-value="material">Material Design</button>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Which apps do you use frequently?</label>
+            <div class="checkbox-group">
+                <div class="checkbox-container">
+                    <input type="checkbox" id="whatsapp" name="apps" checked>
+                    <label for="whatsapp">Whatsapp</label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="instagram" name="apps">
+                    <label for="instagram">Instagram</label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="snapchat" name="apps" checked>
+                    <label for="snapchat">Snapchat</label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="tiktok" name="apps">
+                    <label for="tiktok">Tiktok</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Sports?</label>
+            <div class="button-group sports">
+                <button type="button" class="option-button active" data-value="football">Football</button>
+                <button type="button" class="option-button" data-value="cricket">Cricket</button>
+                <button type="button" class="option-button" data-value="golf">Golf</button>
+                <button type="button" class="option-button active" data-value="swimming">Swimming</button>
+            </div>
+        </div>
+        
+        <div class="toggle-container">
+            <div class="toggle" id="toggle"></div>
+        </div>
+        
+        <button type="submit" class="submit-btn">SUBMIT</button>
+    </div>
+
+  
+       
+    
+</body>
+</html>
